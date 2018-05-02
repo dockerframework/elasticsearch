@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DOCKER_IMAGE="dockerframework/elasticsearch"
-DOCKER_TAG="2.4"
+DOCKER_TAG="5.6"
 
 #### Halt script on error
 set -e

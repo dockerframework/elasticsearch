@@ -1,4 +1,4 @@
-ARG ELASTICSEARCH_VERSION=2.4
+ARG ELASTICSEARCH_VERSION=5.6
 FROM elasticsearch:${ELASTICSEARCH_VERSION}-alpine
 
 # ================================================================================================

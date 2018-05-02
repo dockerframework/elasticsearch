@@ -16,4 +16,4 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - ./data/elasticsearch:/usr/share/elasticsearch/data          # volume for data
     environment:
-      - ELASTICSEARCH_VERSION=2.4
+      - ELASTICSEARCH_VERSION=5.6
